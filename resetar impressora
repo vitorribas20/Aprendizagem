@@ -1,0 +1,21 @@
+@echo off
+MSG * CERTIFIQUE-SE QUE EXECUTOU COMO ADMINISTRADOR
+color 2
+
+cls
+
+echo Oi, vou arrumar sua impressora, fica tranquilo que nao vai piorar
+
+pause
+echo.
+Net stop spooler
+echo.
+
+pause
+echo.
+net start spooler
+echo.
+
+MSG * Espero que tenha funcionado, Feito por Vitor Ribas"
+
+pause
